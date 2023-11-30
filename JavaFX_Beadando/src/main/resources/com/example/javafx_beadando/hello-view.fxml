@@ -35,8 +35,8 @@
                 <MenuItem text="Töröl" onAction="#Delete"/>
             </Menu>
             <Menu text="Rest1">
-                <MenuItem text="Ceate" onAction="#Rest1Post"/>
-                <MenuItem text="Read" onAction="#Rest1Get" />
+                <MenuItem text="Get" onAction="#Rest1Get" />
+                <MenuItem text="Post" onAction="#Rest1Post"/>
                 <MenuItem text="Delete" onAction="#Rest1Delete"/>
                 <MenuItem text="Update" onAction="#Rest1Update"/>
             </Menu>
@@ -51,17 +51,17 @@
                 <MenuItem text="Több algoritmus 2"/>
             </Menu>
             <Menu text="Egyéb">
-                <MenuItem text="Párhuzamos" onAction="#Parhuzamos"/>
-                <MenuItem text="Stream" onAction="#Stream"/>
+                <MenuItem text="Párhuzamos almenü" onAction="#Parhuzamos"/>
+                <MenuItem text="Stream almenü" onAction="#Stream"/>
             </Menu>
-            <Menu text="Forex">
+          <!--  <Menu text="Forex">
                 <MenuItem text="Számlainformációk" onAction="#Szamlainformáciok" />
                 <MenuItem text="Aktuális árak" onAction="#AktualAr"/>
                 <MenuItem text="Historikus árak" onAction="#HistorikuAar"/>
                 <MenuItem text="Pozíció nyitás" onAction="#PoziciNnyit"/>
                 <MenuItem text="Pozíció zárás" onAction="#PozícioZar"/>
                 <MenuItem text="Nyitott pozíciók" onAction="#NyitottPoz"/>
-            </Menu>
+            </Menu> -->
         </MenuBar>
     </top>
      <center>
